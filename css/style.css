@@ -36,6 +36,11 @@ input.empty {
     color: black;
 }
 
+.rightpanel {
+    background-color: white;
+    border: none;
+}
+
 .rightpanellinks {
     text-decoration: none;
     color: lightgrey;
@@ -48,4 +53,20 @@ input.empty {
 
 .middlearea {
     max-height: 200px !important;
+}
+
+.card>.list-group {
+    border: none;
+}
+
+.card-header {
+    background-color: white;
+}
+
+.card-footer {
+    background-color: white;
+}
+
+#sticky-sidebar {
+    position: fixed !important;
 }
